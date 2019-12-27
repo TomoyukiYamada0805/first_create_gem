@@ -3,7 +3,7 @@ RSpec.describe FirstCreateGem do
     expect(FirstCreateGem::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "greet test" do
+    expect(FirstCreateGem.greet).to eq("Hello")
   end
 end
